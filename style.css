@@ -1,0 +1,150 @@
+body{
+
+background-color: #f8cf47;
+color: #444444;
+}
+
+.top {
+
+background-color: #2C3639;
+position: relative;
+bottom: 55px;
+margin: 0%;
+padding: 0%;
+width: 140rem;
+right: 50px;
+
+}
+
+#main-title{
+    background-color: #f8cf47;;
+    font-size: 5rem;
+    position: relative;
+    left: 35%;
+    border: 7px solid #2C3639;
+    padding: 2%;
+    width: fit-content;
+    text-shadow: 0 0 0.6em #FEFFDB;
+
+}
+
+#new-task{
+    font-size: 2rem;
+    position: relative;
+    left: 35%;
+    
+    
+
+}
+
+
+::placeholder{
+   
+    width: fit-content;
+    border-radius: 4px;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+}
+
+#main-button{
+    position: relative;
+    left: 65%;
+    bottom: 58px;
+    padding: 1%;
+    width: 130px;
+    height: 60px;
+    background-color: #2C3639;
+    color: #f8cf47;
+    font-size: 25px;
+    border: 1px solid #3F4E4F;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+
+#main-button:hover{
+
+    cursor: pointer;
+    background-color: #3F4E4F;
+    color: #ffe385;
+}
+
+#tasks{
+    font-size: 50px;
+    position: relative;
+    left: 15%;
+}
+
+#taskdate{
+    position: relative;
+    left: 75%;
+    bottom: 115px;
+    font-size: 40px
+}
+
+#taskbuttons{
+    background-color: #2C3639;
+    color: #f8cf47;
+    border: 1px solid #3F4E4F;
+    border-radius: 15px;
+    width: fit-content;
+    height: 30px;
+}
+
+
+#taskbuttons:hover{
+
+    cursor: pointer;
+    background-color: #3F4E4F;
+    color: #ffe385;
+}
+
+#footer{
+    position: relative;
+    top: 300px;
+    background-color: #2C3639;
+    height: 100px;
+    right: 10px;
+    width: 2000px;
+    text-align: left;
+    
+}
+
+
+
+#footerelements{
+color: #f8cf47;
+text-decoration: none;
+font-size: 1.7rem;
+text-align: center;
+}
+
+#copyright{
+    color: #f8cf47;
+    position: relative;
+    left: 1600px;
+    bottom: 47px;
+    font-size: 1.5rem;
+}
+
+
+#aboutp{
+    color: #2C3639;
+    font-size: 2rem;
+}
+
+
+#email{
+    text-decoration: none;
+    font-size: 1.7rem;
+    text-align: center;
+    position: relative;
+    left: 510px;
+    color: #2C3639;
+    border: #FEFFDB solid 3px;
+
+}
