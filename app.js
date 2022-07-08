@@ -21,37 +21,35 @@ alert("Welcome!")
 }
 
 
-let questionOne = prompt("Do you play sport?")
-
-if( questionOne === "" || questionOne === null  ){
-    prompt("Do you play sport?!")
-}
-
-if( questionOne === "" || questionOne === null  ){
-    prompt("Do you play sport?!!!!")
-}
-   
-let questionTwo = prompt("Do you have free time?")
-if( questionTwo === "" || questionTwo === null  ){
-    questionTwo = prompt("Do you have free time??!")
-}
-
-if( questionTwo === "" || questionTwo === null  ){
-    questionTwo= prompt("Do you have free time?!!!!")
-}
-let questionThree = prompt("Did you sleep well last night?")
-
-if( questionThree === "" || questionThree === null  ){
-    questionThree= prompt("Did you sleep well last night?!")
-}
-
-if( questionThree === "" || questionThree === null  ){
-    questionThree= prompt("Did you sleep well last night???!!!")
-}
+var answersArray = [];
 
 
-var answersArray = [questionOne, questionTwo, questionThree ];
-console.log(answersArray)
+function questions(question){
+    var answer= prompt(question)
+    if (answer==="" || answer==null){
+        for(i=0;i<10;i++){
+            if(answer!=="" && answer!==null){
+                break;
+            }
+            prompt(question);
+        }
+       
+        return answer;
+    }
+ }
+ const questionOne="Do you play sport?";
+ const questionTwo ="Do you have free time?";
+ const questionThree="Did you sleep well last night???!!!";
+
+ questions(questionOne);
+ questions(questionTwo);
+ questions(questionThree);
+ 
+
+ var answersArray = [questionOne, questionTwo, questionThree ];
+console.log(answersArray);
+
+
 
 
 
